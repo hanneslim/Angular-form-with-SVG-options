@@ -1,0 +1,228 @@
+<svg
+  id="Komponente_8_1"
+  data-name="Komponente 8 – 1"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="485.5"
+  height="336"
+  viewBox="0 0 485.5 336"
+>
+  <defs>
+    <clipPath id="clip">
+      <use xlink:href="#fill" />
+    </clipPath>
+    <clipPath id="clip-2">
+      <use xlink:href="#fill-2" />
+    </clipPath>
+    <clipPath id="clip-3">
+      <use xlink:href="#fill-3" />
+    </clipPath>
+    <clipPath id="clip-4">
+      <use xlink:href="#fill-4" />
+    </clipPath>
+    <clipPath id="clip-5">
+      <use xlink:href="#fill-5" />
+    </clipPath>
+    <clipPath id="clip-6">
+      <use xlink:href="#fill-6" />
+    </clipPath>
+    <clipPath id="clip-7">
+      <use xlink:href="#fill-7" />
+    </clipPath>
+    <clipPath id="clip-8">
+      <use xlink:href="#fill-8" />
+    </clipPath>
+  </defs>
+
+  <g class="wall" >
+    <rect width="485" height="336" stroke="none" />
+    <rect x="2.5" y="2.5" width="480" height="331" fill="none" />
+  </g>
+
+  <g class="separators">
+    <line x2="82" transform="translate(10.5 215.5)" />
+    <line x2="82" transform="translate(10.5 106.5)" />
+    <line x2="82" transform="translate(136.5 106.5)" />
+    <line x2="82" transform="translate(357 224.5)" />
+    <line y2="155" transform="translate(92.5 30.5)" />
+    <line y2="155" transform="translate(136.5 30)" />
+    <line x2="82" transform="translate(136.5 215.5)" />
+    <line y1="81.5" transform="translate(92.5 213)" />
+    <line y1="81.5" transform="translate(136.5 213)" />
+    <line y2="165" transform="translate(357 141)" />
+  </g>
+
+  <g class="separate-room" >
+    <line x1="148" transform="translate(337.5 120.5)" />
+    <line y2="122.5" transform="translate(258.5 0.5)" />
+    <line x1="22" transform="translate(258.5 120.5)" />
+  </g>
+
+  <g class="seat"
+  [class.selected]="isSelected('seat-0')"
+  (click)="select('seat-0')" >
+    <g id="table-0" transform="translate(19 59)">
+      <rect width="66" height="35" stroke="none" />
+      <rect x="2.5" y="2.5" width="61" height="30" fill="none" />
+    </g>
+
+    <g id="screen-0" transform="translate(31 84)">
+      <rect id="fill" width="42" height="4" stroke="none" />
+      <path
+        d="M0,1.5h42M39.5,0v4M42,2.5h-42M2.5,4v-4"
+        fill="none"
+        clip-path="url(#clip)"
+      />
+    </g>
+    <g id="chair-0" transform="translate(40 30)">
+      <ellipse cx="12.5" cy="11" rx="12.5" ry="11" stroke="none" />
+      <ellipse cx="12.5" cy="11" rx="10" ry="8.5" fill="none" />
+    </g>
+  </g>
+
+  <g class="seat" 
+  [class.selected]="isSelected('seat-1')"
+  (click)="select('seat-1')">
+    <g id="table-1" transform="translate(148 59)">
+      <rect width="66" height="35" stroke="none" />
+      <rect x="2.5" y="2.5" width="61" height="30" fill="none" />
+    </g>
+    <g id="screen-1" transform="translate(160 84)">
+      <rect id="fill-2" width="42" height="4" stroke="none" />
+      <path
+        d="M0,1.5h42M39.5,0v4M42,2.5h-42M2.5,4v-4"
+        fill="none"
+        clip-path="url(#clip-2)"
+      />
+    </g>
+    <g id="chair-1" transform="translate(169 30)">
+      <ellipse cx="12.5" cy="11" rx="12.5" ry="11" stroke="none" />
+      <ellipse cx="12.5" cy="11" rx="10" ry="8.5" fill="none" />
+    </g>
+  </g>
+
+  <g class="seat" 
+  [class.selected]="isSelected('seat-2')"
+  (click)="select('seat-2')">
+    <g id="table-2" transform="translate(85 156) rotate(180)">
+      <rect width="66" height="35" stroke="none" />
+      <rect x="2.5" y="2.5" width="61" height="30" fill="none" />
+    </g>
+    <g id="screen-2" transform="translate(73 131) rotate(180)">
+      <rect id="fill-3" width="42" height="4" stroke="none" />
+      <path
+        d="M0,1.5h42M39.5,0v4M42,2.5h-42M2.5,4v-4"
+        fill="none"
+        clip-path="url(#clip-3)"
+      />
+    </g>
+    <g id="chair-2" transform="translate(64 185) rotate(180)">
+      <ellipse cx="12.5" cy="11" rx="12.5" ry="11" stroke="none" />
+      <ellipse cx="12.5" cy="11" rx="10" ry="8.5" fill="none" />
+    </g>
+  </g>
+
+  <g class="seat" 
+  [class.selected]="isSelected('seat-3')"
+  (click)="select('seat-3')">
+    <g id="table-3" transform="translate(214 156) rotate(180)">
+      <rect width="66" height="35" stroke="none" />
+      <rect x="2.5" y="2.5" width="61" height="30" fill="none" />
+    </g>
+    <g id="screen-3" transform="translate(202 131) rotate(180)">
+      <rect id="fill-4" width="42" height="4" stroke="none" />
+      <path
+        d="M0,1.5h42M39.5,0v4M42,2.5h-42M2.5,4v-4"
+        fill="none"
+        clip-path="url(#clip-4)"
+      />
+    </g>
+    <g id="chair-3" transform="translate(193 185) rotate(180)">
+      <ellipse cx="12.5" cy="11" rx="12.5" ry="11" stroke="none" />
+      <ellipse cx="12.5" cy="11" rx="10" ry="8.5" fill="none" />
+    </g>
+  </g>
+  <g class="seat"
+  [class.selected]="isSelected('seat-4')"
+  (click)="select('seat-4')" >
+    <g id="table-4" transform="translate(85 265) rotate(180)">
+      <rect width="66" height="35" stroke="none" />
+      <rect x="2.5" y="2.5" width="61" height="30" fill="none" />
+    </g>
+    <g id="screen-4" transform="translate(73 240) rotate(180)">
+      <rect id="fill-5" width="42" height="4" stroke="none" />
+      <path
+        d="M0,1.5h42M39.5,0v4M42,2.5h-42M2.5,4v-4"
+        fill="none"
+        clip-path="url(#clip-5)"
+      />
+    </g>
+    <g id="chair-4" transform="translate(64 294) rotate(180)">
+      <ellipse cx="12.5" cy="11" rx="12.5" ry="11" stroke="none" />
+      <ellipse cx="12.5" cy="11" rx="10" ry="8.5" fill="none" />
+    </g>
+  </g>
+
+  <g class="seat"
+  [class.selected]="isSelected('seat-5')"
+  (click)="select('seat-5')">
+    <g id="table-5" transform="translate(214 265) rotate(180)">
+      <rect width="66" height="35" stroke="none" />
+      <rect x="2.5" y="2.5" width="61" height="30" fill="none" />
+    </g>
+    <g id="screen-5" transform="translate(202 240) rotate(180)">
+      <rect id="fill-6" width="42" height="4" stroke="none" />
+      <path
+        d="M0,1.5h42M39.5,0v4M42,2.5h-42M2.5,4v-4"
+        fill="none"
+        clip-path="url(#clip-6)"
+      />
+    </g>
+    <g id="chair-5" transform="translate(193 294) rotate(180)">
+      <ellipse cx="12.5" cy="11" rx="12.5" ry="11" stroke="none" />
+      <ellipse cx="12.5" cy="11" rx="10" ry="8.5" fill="none" />
+    </g>
+  </g>
+
+  <g class="seat"
+  [class.selected]="isSelected('seat-6')"
+  (click)="select('seat-6')">
+    <g id="table-6" transform="translate(410 141) rotate(90)">
+      <rect width="66" height="35" stroke="none" />
+      <rect x="2.5" y="2.5" width="61" height="30" fill="none" />
+    </g>
+    <g id="screen-6" transform="translate(385 153) rotate(90)">
+      <rect id="fill-7" width="42" height="4" stroke="none" />
+      <path
+        d="M0,1.5h42M39.5,0v4M42,2.5h-42M2.5,4v-4"
+        fill="none"
+        clip-path="url(#clip-7)"
+      />
+    </g>
+    <g id="chair-6" transform="translate(439 162) rotate(90)">
+      <ellipse cx="12.5" cy="11" rx="12.5" ry="11" stroke="none" />
+      <ellipse cx="12.5" cy="11" rx="10" ry="8.5" fill="none" />
+    </g>
+  </g>
+
+  <g class="seat"
+  [class.selected]="isSelected('seat-7')"
+  (click)="select('seat-7')" >
+    <g id="table-7" transform="translate(410 240) rotate(90)">
+      <rect width="66" height="35" stroke="none" />
+      <rect x="2.5" y="2.5" width="61" height="30" fill="none" />
+    </g>
+    <g id="screen-7" transform="translate(385 252) rotate(90)">
+      <rect id="fill-8" width="42" height="4" stroke="none" />
+      <path
+        d="M0,1.5h42M39.5,0v4M42,2.5h-42M2.5,4v-4"
+        fill="none"
+        clip-path="url(#clip-8)"
+      />
+    </g>
+    <g id="chair-7" transform="translate(439 261)rotate(90) ">
+      <ellipse cx="12.5" cy="11" rx="12.5" ry="11" stroke="none" />
+      <ellipse cx="12.5" cy="11" rx="10" ry="8.5" fill="none" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+$successColour: #19e619
+
+:host
+    &.ng-touched, &.ng-dirty
+            &.ng-invalid
+                svg
+                    .wall, .seat
+                        stroke: red
+
+    svg
+        margin: 25px 0 25px 0
+        
+        .wall
+            stroke: black
+            fill: #fff 
+            stroke-width: 5
+        .separators
+            stroke: black
+            fill: none
+            stroke-width: 5
+        .separate-room
+            stroke: black
+            fill: none
+            stroke-width: 5
+
+        .seat
+            stroke: grey
+            cursor: pointer
+            fill: #fff 
+            transition: all 250ms
+            stroke-width: 4
+            &.selected
+                fill: $successColour
+                stroke-width: 1
+            

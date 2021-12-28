@@ -1,0 +1,16 @@
+<p>Values: {{ reservationForm.value | json }}</p>
+<p>Form valid: {{ reservationForm.valid }}</p>
+
+<form [formGroup]="reservationForm">
+  <label for="name"> Your name:</label>
+  <input id="name" type="text" formControlName="name" placeholder="Name" />
+
+  <label for="weekday"> Enter the reservation day:</label>
+  <input
+    id="weekday"
+    type="text"
+    formControlName="weekday"
+    placeholder="Monday"
+  />
+  <app-seats id="seat" formControlName="seat"></app-seats>
+</form>
